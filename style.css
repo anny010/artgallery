@@ -1,0 +1,293 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.hero{
+    display: block;
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    color:rgba(21, 21, 21, 1);
+    font-family: 'Big Shoulders Display', cursive;
+}
+p{
+    font-size: 18px;
+    color:rgba(68, 68, 68, 1);
+    font-family: 'Outfit', sans-serif;
+    line-height: 28px;
+}
+.container1{
+margin-left: 16px;
+}
+.rectangle{  
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+a{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Big shoulders Display';
+    line-height: 24px;
+    letter-spacing: 3.64px;
+    text-align:center;
+    position: relative;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+ }
+.background{
+    background-color: black;
+    width:204px;
+    height:72px;
+    cursor: pointer;
+}
+.background:hover{
+  background-color: #D5966C;
+}
+
+.pictures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
+    margin-top: -24px;
+}
+.gold{
+    cursor: pointer;
+}
+.arrow{
+  position: absolute;
+  cursor: pointer;
+}
+.gallery{
+    width: 100%;
+    margin-top:100px;
+}
+.container2{
+    padding: 16px;
+}
+.container2 h1{
+    font-size: 50px;
+    line-height: 45px;
+    margin-top: 25px;
+}
+.container2 p{
+    margin-top: 21px;
+}
+.chair{
+    width: 100%;
+    margin-top: 32px;
+}
+.person{
+    width: 100%;
+    margin-top: 16px;
+}
+.blackback{
+    width: 100%;
+    height:293px;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    padding: 48px 24px;
+}
+.blackback h1{
+    color: #FFFFFF;
+}
+.blackback p{
+    color:#FFFFFF; 
+}
+.blackline{
+    background-color: #151515;
+    width: 100%;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    padding: 48px 32px 48px 32px;
+}
+.blackline h1{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.blackline p{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 38px 0px 38px 0px;
+}
+.icons{
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  height: 20px;
+  }
+  .hero_tablet{
+    display: none;
+  }
+  .blackbg{
+    display: none;
+  }
+ 
+
+  @media (min-width: 768px){
+    .blackbg{
+      display: none;
+    }
+  .container1{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+  }
+  .container1 h1{
+    width: 339px;
+  }
+  h1{
+    font-size: 70px;
+  }
+  .rectangle{
+    position:absolute;
+  }
+  .hero{
+    display: none;
+  }
+  .hero_tablet{
+    display: block;
+    width: 437px;
+    height: 700px
+  }
+  .gallery{
+    width: 398px;
+    order: 2;
+    margin-left: 70px;
+  }
+ 
+  .chair{
+    width: 398px;
+    height: 720px;
+  }
+  .person{
+    width: 280px;
+    height: 313px;
+  }
+  .blackback{
+    width: 280px;
+    height: 396px;
+    padding: 85px 28px;
+  }
+  .firstrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .row1{
+    order: 1;
+    width: 223px;
+    height: 299px;
+ }
+ .second{
+    display: flex;
+ }
+ .blackline{
+  display: flex;
+  padding: 56px 40px 56px 39px;
+  flex-direction: row;
+  height: 216px;
+ }
+ .third{
+  margin-top: 15.5px;
+  margin-left: 11px;
+ }
+ .container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 0;
+ }
+ .blackline p{
+  width: 281px;
+  margin: 0px auto;
+ }
+  }
+ @media (min-width: 1440px){
+  .chair{
+    width: 635px;
+    height: 720px;
+  }
+  .person{
+    width:445px;
+    height: 313px;
+  }
+  .blackback{
+    width: 445px;
+    height: 377px;
+    margin-top: 26px;
+  }
+  .gallery{
+    width: 635px;
+    height: 400px;
+  }
+ .firstrow{
+  gap:152px;
+ }
+ .row1 h1{
+height: 120px;
+width: 350px;
+left: 0px;
+top: 0px;
+font-size: 60px;
+line-height: 60px;
+ }
+ .row1 p{
+  height: 128px;
+width: 350px;
+left: 0px;
+top: 152px;
+font-size: 22px;
+line-height: 32px;
+ }
+ .blackbg{
+ width: 450px;
+ height: 799px;
+ display: block;
+ background-color: #151515;
+}
+.hero_tablet{
+  position: absolute;
+  margin-left: 400px;
+  padding-left: 50px;
+  width: 540px;
+  height: 799px;
+}
+.container1 h1{
+  position: absolute;
+  top: -5%;
+  left: -132%;
+  color: #FFFFFF;
+  mix-blend-mode: difference;
+}
+.container1 p{
+  font-size: 22px;
+  line-height: 32px;
+  width: 350px;
+  margin-left: 50%;
+}
+.blackline p{
+font-size: 18px;
+line-height: 28px;
+width: 430px;
+}
+.blackline h1{
+  font-size: 30px;
+  width: 160px;
+}
+.rectangle{
+  margin-left: 50%;
+}
+ }
+
